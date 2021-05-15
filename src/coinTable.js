@@ -72,9 +72,8 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 					{price}
 				</td>
 				<td
-					className={`py-4 whitespace-nowrap text-lg ${
-						change < 0 ? "text-red-600" : "text-green-600"
-					}`}
+					className={`py-4 whitespace-nowrap text-lg ${change < 0 ? "text-red-600" : "text-green-600"
+						}`}
 				>
 					{change < 0 ? `${change}%` : `+${change}%`}
 				</td>
@@ -122,9 +121,8 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 				<td className="py-4 whitespace-nowrap text-lg text-right text-gray-500 pr-6 lg:pr-0">
 					{price}
 					<div
-						className={`whitespace-nowrap text-right text-lg ${
-							change < 0 ? "text-red-600" : "text-green-600"
-						}`}
+						className={`whitespace-nowrap text-right text-lg ${change < 0 ? "text-red-600" : "text-green-600"
+							}`}
 					>
 						{change < 0 ? `${change}%` : `+${change}%`}
 					</div>
