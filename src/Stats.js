@@ -1,7 +1,7 @@
-import classes from './Bluebar.module.css'
+import classes from './Stats.module.css'
 
-function Bluebar() {
-    return(
+function Stats() {
+    return (
         <div className={classes.background}>
             <section className={classes.sectionLayout}>
                 <div className={classes.divLayout}>
@@ -23,4 +23,4 @@ function Bluebar() {
     )
 }
 
-export default Bluebar
+export default Stats
