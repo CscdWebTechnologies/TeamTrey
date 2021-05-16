@@ -1,7 +1,7 @@
 import './App.css';
-import Portfolio from './Portfolio.js';
-import Earn from './Earn.js';
-import CoinTable from './CoinTable.js';
+import Portfolio from './portfolio.js';
+import Earn from './earn.js';
+import CoinTable from './table.js';
 import Trust from './Trust';
 import Stats from './Stats';
 import GetStarted from './GetStarted';
