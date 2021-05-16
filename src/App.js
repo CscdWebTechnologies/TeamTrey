@@ -1,9 +1,9 @@
 //import logo from './logo.svg';
 import './App.css';
-import Portfolio from './Portfolio.js';
-import Earn from './Earn.js';
-import CoinTable from './CoinTable.js';
-import Trust from './Trust';
+import Portfolio from './portfolio.js';
+import Earn from './earn.js';
+import CoinTable from './table.js';
+import Trust from './trust';
 
 function App() {
   return (

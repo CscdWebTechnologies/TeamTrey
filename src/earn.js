@@ -3,8 +3,19 @@ import ample from "./Assets/ample.svg";
 import celo from "./Assets/celo.svg";
 import graph from "./Assets/graph.svg";
 import cypher from "./Assets/cypher.svg";
+import skale from "./Assets/skale-asset-logo.svg";
 
 const earnList = [
+	{
+		img: skale,
+		name: (
+			<p>
+				SKALE <br />
+				
+			</p>
+		),
+		code: "SKL",
+	},
 	{
 		img: ample,
 		name: (
@@ -66,7 +77,7 @@ const Earn = () => {
 					<div className="flex">
 						<button
 							className="bg-coinbase text-white text-sm px-4 py-3 mt-4 mx-auto lg:mx-0"
-							style={{ borderRadius: "4px" }}
+							style={{ borderRadius: "5px", backgroundColor: 'blue' }}
 						>
 							Start earning
 						</button>
@@ -84,8 +95,8 @@ const Earn = () => {
 					</div>
 
 					<div className="mt-3">
-						<p className="ml-8 font-normal text-coinbase hover:underline">
-							View more {">"}
+						<p className="ml-8 font-normal text-coinbase hover:none" style = {{color: 'blue'}}>
+						<a href="#" className="btn empty">View more {">"}</a>
 						</p>
 					</div>
 				</div>
@@ -93,5 +104,6 @@ const Earn = () => {
 		</div>
 	);
 };
+
 
 export default Earn;
