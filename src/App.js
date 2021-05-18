@@ -1,14 +1,28 @@
-//import logo from './logo.svg';
 import './App.css';
-import Hero from './hero.js';
-import NavBar from './navigationbar.js';
+import Portfolio from './portfolio.js';
+import Earn from './earn.js';
+import CoinTable from './table.js';
+import Trust from './Trust';
+import Stats from './Stats';
+import GetStarted from './GetStarted';
+import StartEarning from './StartEarning';
 
 function App() {
   return (
     <div className="bg-white h-screen">
-      <NavBar />
-      <Hero />
-    
+
+      {/* Ehmana */}
+      <CoinTable />
+      <Earn />
+      <Portfolio />
+      <Trust />
+
+      {/* Othniel */}
+      <Stats />
+      <GetStarted />
+      <StartEarning />
+
+
     </div>
   );
 }
