@@ -133,7 +133,7 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 	);
 };
 
-const CoinTable = () => {
+const Table = () => {
 	return (
 		<div className="flex flex-col px-0 md:px-10 lg:px-16 lg:max-w-7xl w-full mx-auto">
 			<div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
