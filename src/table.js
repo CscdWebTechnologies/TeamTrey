@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/alt-text */
-//icon imports
+
 import btc from "./Assets/bitcoin.png";
 import eth from "./Assets/eth.png";
 import lite from "./Assets/lite.png";
@@ -72,8 +71,9 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 					{price}
 				</td>
 				<td
-					className={`py-4 whitespace-nowrap text-lg ${change < 0 ? "text-red-600" : "text-green-600"
-						}`}
+					className={`py-4 whitespace-nowrap text-lg ${
+						change < 0 ? "text-red-600" : "text-green-600"
+					}`}
 				>
 					{change < 0 ? `${change}%` : `+${change}%`}
 				</td>
@@ -82,7 +82,7 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 				</td>
 				<td className="py-4 whitespace-nowrap text-sm font-normal">
 					<button
-						style={{ borderRadius: "4px" }}
+						style={{ borderRadius: "4px", backgroundColor:'mediumseagreen' }}
 						href="#"
 						className="text-white bg-coinbase-green py-3 px-5"
 					>
@@ -121,8 +121,9 @@ const CoinRow = ({ id, icon, name, code, price, change, chart }) => {
 				<td className="py-4 whitespace-nowrap text-lg text-right text-gray-500 pr-6 lg:pr-0">
 					{price}
 					<div
-						className={`whitespace-nowrap text-right text-lg ${change < 0 ? "text-red-600" : "text-green-600"
-							}`}
+						className={`whitespace-nowrap text-right text-lg ${
+							change < 0 ? "text-red-600" : "text-green-600"
+						}`}
 					>
 						{change < 0 ? `${change}%` : `+${change}%`}
 					</div>
