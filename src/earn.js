@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import ample from "./Assets/ample.svg";
 import celo from "./Assets/celo.svg";
 import graph from "./Assets/graph.svg";
@@ -77,7 +76,7 @@ const Earn = () => {
 					<div className="flex">
 						<button
 							className="bg-coinbase text-white text-sm px-4 py-3 mt-4 mx-auto lg:mx-0"
-							style={{ borderRadius: "5px", backgroundColor: 'blue' }}
+							style={{ borderRadius: "5px", backgroundColor: '#0066CC' }}
 						>
 							Start earning
 						</button>
