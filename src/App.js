@@ -1,8 +1,8 @@
 import './App.css';
 import Portfolio from './portfolio.js';
 import Earn from './earn.js';
-import CoinTable from './table.js';
-import Trust from './Trust';
+import Table from './table.js';
+import Trust from './trust';
 import Stats from './Stats';
 import GetStarted from './GetStarted';
 import StartEarning from './StartEarning';
@@ -12,7 +12,7 @@ function App() {
     <div className="bg-white h-screen">
 
       {/* Ehmana */}
-      <CoinTable />
+      <Table />
       <Earn />
       <Portfolio />
       <Trust />
