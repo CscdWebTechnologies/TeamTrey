@@ -1,15 +1,16 @@
+
 import './App.css';
 import Portfolio from './portfolio.js';
-import Earn from './earn.js';
-import CoinTable from './table.js';
+import EarnSection from './earn.js';
+import Table from './table.js';
 import Trust from './trust';
 
 
 function App() {
   return (
     <div className="bg-white h-screen">
-      <CoinTable />
-      <Earn />
+      <Table />
+      <EarnSection />
       <Portfolio />
       <Trust />
     
