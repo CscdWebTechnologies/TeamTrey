@@ -1,1 +1,0 @@
-# This project is a UI clone of coinbase
