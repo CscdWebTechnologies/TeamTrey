@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './App.css';
 import Portfolio from './portfolio.js';
 import Earn from './earn.js';
