@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-const NavigationItem = ({ tabName }) => {
+const NavItem = ({ tabName }) => {
 	return <a className="text-sm text-black">{tabName}</a>;
 };
 

@@ -23,7 +23,7 @@ const NavigationBar = () => {
 								<img className="w-28" src={logo} alt="logo" />
 							</span>
 						</div>
-						
+
 						<nav className="hidden xl:flex space-x-10 h-full">
 							{tabs.map((_item, _i) => (
 								<NavItem tabName={_item} />
@@ -52,4 +52,4 @@ const NavigationBar = () => {
 	);
 };
 
-export default NavBar;
+export default NavigationBar;
