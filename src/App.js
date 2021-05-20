@@ -5,6 +5,10 @@ import Table from './table.js';
 import Trust from './trust';
 import HeroSection from './hero.js';
 import NavigationBar from './navigationbar.js';
+import Stats from "./Stats";
+import Getstarted from "./GetStarted";
+import StartEarning from "./StartEarning"
+import Footer from "./Footer"
 
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
       <Portfolio />
       <Trust />
 
+      <Stats />
+      <Getstarted />
+      <StartEarning />
+      <Footer />
 
     </div>
   );
