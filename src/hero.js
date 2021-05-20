@@ -2,14 +2,14 @@ import { ReactComponent as BTC } from "./Assets/bitcoin-blue.svg";
 import { ReactComponent as Arrow } from "./Assets/right-arrow.svg";
 import { ReactComponent as Phone } from "./Assets/coinbase-head-img.svg";
 
-const HeroSection = () => {
+const Hero = () => {
 	return (
 		<div className="px-6 md:px-10 lg:px-16 grid grid-cols-1 lg:grid-cols-2 pb-10 pt-20 lg:max-w-6xl w-full mx-auto">
 			<div className="flex mt-10 lg:mt-0">
 				<div className="my-auto">
 					<div className="flex">
 						<BTC />
-						<p className="mx-2 font-semibold text-coinbase hover:underline" style={{color:'blue'}}>
+						<p className="mx-2 font-semibold text-coinbase hover:underline" style={{ color: 'blue' }}>
 							Jump start your portfolio
 						</p>
 						<Arrow className="my-auto" />
@@ -32,12 +32,12 @@ const HeroSection = () => {
 						/>
 						<button
 							className="bg-coinbase text-white px-2 md:ml-2 text-sm w-full md:col-span-1 lg:col-span-2 py-5 mt-2 md:mt-0"
-							style={{ borderRadius: "4px", backgroundColor:'#0066CC' }}
+							style={{ borderRadius: "4px", backgroundColor: '#0066CC' }}
 						>
 							Get Started
 						</button>
 					</div>
-					<span className="underline text-xs text-coinbase" style={{color:'blue'}}>
+					<span className="underline text-xs text-coinbase" style={{ color: 'blue' }}>
 						* Terms apply
 					</span>
 				</div>
